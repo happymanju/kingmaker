@@ -1,5 +1,19 @@
-#Kingmaker
-##A fantasy character title generator
+# Kingmaker
 
-import the kingmaker package
-use kingmaker.generateTitles(name, (n=5)) to raturn an array of titles with the given name.
+## A fantasy character title generator
+
+## Technologies and Dependencies
+kingmaker has external dependencies -- just import the package!
+
+## Quickstart
+
+Install kingmaker via ```npm``` like so:
+```
+npm kingmaker
+```
+
+Start making some cool titles by entering a name!
+```
+kingmaker.generateTitles('Michael') //returns an array of names
+
+```
