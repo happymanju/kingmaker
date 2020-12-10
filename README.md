@@ -3,7 +3,7 @@
 ## A fantasy character title generator
 
 ## Technologies and Dependencies
-kingmaker has external dependencies -- just import the package!
+kingmaker has no external dependencies -- just import the package!
 
 ## Quickstart
 
