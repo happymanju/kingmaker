@@ -1,6 +1,6 @@
 {
   "name": "kingmaker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fantasy title and name generator",
   "main": "index.js",
   "scripts": {
