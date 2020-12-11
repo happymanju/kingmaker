@@ -1,15 +1,29 @@
 {
   "name": "kingmaker",
+  "homepage": "https://github.com/happymanju/kingmaker#readme",
   "version": "1.0.1",
   "description": "A fantasy title and name generator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pre-push": "npm run test",
+    "postinstall": "husky install",
+    "prepublishOnly": "pinst --disable",
+    "postpublish": "pinst --enable",
+    "preversion": "npm test",
+    "postversion": "git push origin --tags --no-verify",
+    "test": "mocha"
   },
   "keywords": [
     "rpg",
     "fantasy"
   ],
   "author": "mpiastucki",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "husky": "^4.3.5",
+    "mocha": "^8.2.1",
+    "pinst": "^2.1.1"
+  }
 }
